@@ -25,7 +25,7 @@ function submitForm(e) {
   var email = getInputVal('email');
 
   moment.locale('pt-BR');
-  var dataHora = moment().format();
+  var dataHora = moment().format('YYYY-MM-DD hh:mm:ss');
 
   // Save message
   saveMessage(name, email, dataHora);
