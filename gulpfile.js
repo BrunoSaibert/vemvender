@@ -65,6 +65,9 @@ var deps = {
   },
   "@fortawesome/fontawesome-free/webfonts": {
     "**/*": ""
+  },
+  "moment": {
+    "min/**/*": ""
   }
 };
 
