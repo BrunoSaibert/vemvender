@@ -10,7 +10,7 @@ var config = {
 firebase.initializeApp(config);
 
 // Reference messages collection
-var messagesRef = firebase.database().ref('messages');
+var messagesRef = firebase.database().ref('leads');
 
 // Listen for form submit
 document.getElementById('contactForm').addEventListener('submit', submitForm);
@@ -24,7 +24,7 @@ function submitForm(e) {
   var email = getInputVal('email');
 
   moment.locale('pt-BR');
-  var dataHora = moment().format('YYYY-MM-DD hh:mm:ss');
+  var dataHora = moment().format('YYYY-MM-DD HH:mm:ss');
 
   // Save message
   saveMessage(name, email, dataHora);
