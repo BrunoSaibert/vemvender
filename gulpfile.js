@@ -43,7 +43,6 @@ gulp.task('mainJS', gulpJS);
 //Função para Plugins
 function pluginJS() {
   return gulp.src([
-    'node_modules/jquery/dist/jquery.min.js',
     'node_modules/jquery-mask-plugin/dist/jquery.mask.min.js'
   ])
     .pipe(concat('plugins.js'))
@@ -52,6 +51,12 @@ function pluginJS() {
 }
 
 var deps = {
+  "bootstrap": {
+    "dist/**/*": ""
+  },
+  "jquery": {
+    "dist/jquery.min.js": ""
+  },
   "@fortawesome/fontawesome-free/css": {
     "**/*": ""
   },
