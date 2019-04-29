@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form id="contactForm">
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <input type="text" id="nome" placeholder="Nome" required="required" name="nome" />
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <input type="text" id="email" placeholder="email" name="email" />
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Main -->
+    <script src="js/main.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
+    <script src="js/main/formCapturaLeads.js"></script>
+
+</body>
+
+</html>
