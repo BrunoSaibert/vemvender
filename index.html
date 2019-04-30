@@ -1,26 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Vem vender online</title>
 
+  <!-- Roboto Font -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
-  
+
   <!-- Site CSS -->
   <link rel="stylesheet" href="css/style.css">
-  
+
   <!-- Fontawesome CSS -->
   <link rel="stylesheet" href="lib/@fortawesome/fontawesome-free/css/all.css">
 </head>
-<body>
-  <h1 class="text-danger">Iniciando o projeto</h1>
-  <p>Mais uma alteração</p>
 
-  <button class="btn btn-primary">teste</button>
-  
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./img/logo.svg" alt="" style="width: 250px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Insta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Face</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main class="intro">
+    <div class="container">
+
+      <div class="row justify-content-md-center">
+        <div class="col-md-8">
+          <div class="col-md-6">
+            <h1>Venda mais todos os dias!</h1>
+            <span>Venha aprender conosco! Cadastre-se e aprenda mais com nossos artigos digitais.</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+  <section class="card_intro container">
+    <div class="row justify-content-md-center">
+      <div class="col-md-8">
+        <div class="card">
+          <div class="card-body row">
+            <div class="col-md-6">
+              <p>Aumente suas vendas online</p>
+              <h3>Receba um artigo especial para começar a vender com eficácia</h3>
+            </div>
+            <div class="col-md-6">
+              <form id="introForm">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="nomeInput" placeholder="Qual seu nome?*">
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="emailInput" placeholder="Qual seu email?*">
+                </div>
+                <button type="submit" class="btn btn-secondary btn-block">Receber artigo!</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="artigos container">
+    <h2>Artigos</h2>
+
+  </section>
+
+
+  <footer class="footer">
+
+  </footer>
+
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="lib/jquery/jquery.min.js"></script>
@@ -29,4 +103,5 @@
   <!-- Main -->
   <script src="js/main.js"></script>
 </body>
+
 </html>
