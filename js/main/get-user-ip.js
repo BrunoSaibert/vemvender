@@ -31,4 +31,5 @@ function getIp(callback) {
 
 getIp(function (ip) {
   console.log(ip);
+  $("#ip").val(ip);
 });

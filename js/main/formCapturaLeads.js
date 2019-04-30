@@ -26,11 +26,13 @@ function submitForm(e) {
   moment.locale('pt-BR');
   var dataHora = moment().format('YYYY-MM-DD HH:mm:ss');
   var ipuser = getIp(function (ip) {
-   return ip;
+    return ip;
   });
 
+
+
   // Save message
-  saveMessage(name, email, dataHora, ipuser);
+  saveMessage(name, email, dataHora);
 
   // // Show alert
   // document.querySelector('.alert').style.display = 'block';
@@ -50,12 +52,12 @@ function getInputVal(id) {
 }
 
 // Save message to firebase
-function saveMessage(name, email, dataHora, ipuser) {
+function saveMessage(name, email, dataHora) {
   var newMessageRef = messagesRef.push();
   newMessageRef.set({
     name: name,
     email: email,
     dataHora: dataHora,
-    ipuser: ipuser
+    ipuser: $("#ip").val()
   });
 }
