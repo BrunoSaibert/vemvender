@@ -18,13 +18,29 @@
 
   <!-- Fontawesome CSS -->
   <link rel="stylesheet" href="libs/@fortawesome/fontawesome-free/css/all.css">
+
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KDN74CS');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KDN74CS" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 </head>
 
 <body>
 
   <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
     <div class="container">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="./index.html">
         <img src="./img/logo/logo.svg" alt="" class="logo">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -75,7 +91,8 @@
             <div class="col-md-6">
               <form class="introForm h-100">
                 <div class="form_sucesso d-none">
-                  <p class="text-success">Obrigado pelo seu interesse no nosso Guia Prático. Esperamos que esse material o auxilie a iniciar suas vendas online. Boa leitura!</p>
+                  <p class="text-success">Obrigado pelo seu interesse no nosso Guia Prático. Esperamos que esse material
+                    o auxilie a iniciar suas vendas online. Boa leitura!</p>
                 </div>
                 <div class="form_conteudo">
                   <div class="form-group">
@@ -84,7 +101,8 @@
                     <input type="text" class="form-control" id="nomeInput" placeholder="Qual seu nome?*" required>
                   </div>
                   <div class="form-group">
-                    <input type="email" class="form-control" id="emailInput" placeholder="Qual seu email?*" required>
+                    <input type="email" class="form-control" id="emailInput"
+                      placeholder="Qual seu e-mail profissional?*" required>
                   </div>
                   <button type="submit" class="btn btn-secondary btn-block text-uppercase">Receber artigo!</button>
                 </div>
@@ -105,13 +123,15 @@
         <div class="artigo">
           <div class="row">
             <div class="artigo_img col-md-5">
-              <img src="https://picsum.photos/id/10/500/300" class="img-fluid" alt="">
+              <a href="./interna.html">
+                <img src="https://picsum.photos/id/10/500/300" class="img-fluid" alt="">
+              </a>
             </div>
 
             <div class="artigo_conteudo col-md-7">
               <h2>Marketplaces: o que são e como você pode entrar em um?</h2>
               <p>Olá esse é um texto vindo direto do blog que chama atenção.</p>
-              <a href="#" class="btn btn-link">Saiba mais ></a>
+              <a href="./interna.html" class="btn btn-link">Saiba mais ></a>
             </div>
           </div>
         </div>
@@ -152,7 +172,7 @@
     <div class="container">
       <div class="row justify-content-md-center">
         <div class="col col-lg-10 row">
-          <img src="./img/logo/marcalogo.svg" class="col-md-5 col-lg-4" alt="">
+          <img src="./img/logo/marcalogo.svg" class="w-100 col-md-5 col-lg-4" alt="">
           <div class="sobre_conteudo col-md-7 col-lg-6">
             <h3>Quem somos nós</h3>
             <p>O vem vender online é um canal de educação para o empreendedor que quer modernizar seu negócio. Ele
@@ -178,7 +198,8 @@
             <div class="col-md-6">
               <form class="introForm h-100">
                 <div class="form_sucesso d-none">
-                  <p class="text-success">Obrigado pelo seu interesse no nosso Guia Prático. Esperamos que esse material o auxilie a iniciar suas vendas online. Boa leitura!</p>
+                  <p class="text-success">Obrigado pelo seu interesse no nosso Guia Prático. Esperamos que esse material
+                    o auxilie a iniciar suas vendas online. Boa leitura!</p>
                 </div>
                 <div class="form_conteudo">
                   <div class="form-group">
@@ -187,7 +208,8 @@
                     <input type="text" class="form-control" id="nomeInput" placeholder="Qual seu nome?*" required>
                   </div>
                   <div class="form-group">
-                    <input type="email" class="form-control" id="emailInput" placeholder="Qual seu email?*" required>
+                    <input type="email" class="form-control" id="emailInput"
+                      placeholder="Qual seu e-mail profissional?*" required>
                   </div>
                   <button type="submit" class="btn btn-secondary btn-block text-uppercase">Receber artigo!</button>
                 </div>
@@ -203,8 +225,9 @@
   <footer class="footer p-2">
     <div class="container">
       <div class="row justify-content-md-center">
-        <a href="#">
-          <img src="./img/logo/logobranca.svg" alt="Logo">
+        <a href="./index.html">
+          <img src="./img/logo/marcalogobranca.svg" alt="Logo" class="logo_footer_responsivo">
+          <img src="./img/logo/logobranca.svg" alt="Logo" class="logo_footer">
         </a>
         <a href="https://www.instagram.com/vemvenderonline/" target="blank">
           <img src="./img/social/instab.png" alt="Insta">
@@ -212,7 +235,7 @@
         <a href="https://fb.me/vemvenderonline" target="blank">
           <img src="./img/social/faceb.png" alt="Face">
         </a>
-        <a href="#">
+        <a href="mailto:marketing@vemvender.online">
           <img src="./img/social/mailb.png" alt="E-mail">
         </a>
       </div>

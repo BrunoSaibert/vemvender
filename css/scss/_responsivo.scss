@@ -18,9 +18,13 @@
   }
 }
 
-@media only screen and (max-width: 364px) {
+@media only screen and (max-width: 427px) {
   .logo {
     width: 200px;
+  }
+
+  .navbar .navbar-nav a {
+    margin: 5px;
   }
 
   .intro h1 {
@@ -53,5 +57,18 @@
 
   .sobre h3 {
     text-align: center;
+  }
+
+  .logo_footer_responsivo {
+    display: block !important;
+  }
+
+  .logo_footer {
+    display: none !important;
+  }
+
+  .footer .row {
+    display: flex;
+    justify-content: center;
   }
 }
