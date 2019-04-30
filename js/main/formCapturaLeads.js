@@ -1,4 +1,3 @@
-
 // Initialize Firebase
 var config = {
   apiKey: "AIzaSyA3OqJEt5oxJCSOwuWehwZ_Dv6d32x1UHg",
@@ -26,6 +25,9 @@ function submitForm(e) {
 
   moment.locale('pt-BR');
   var dataHora = moment().format('YYYY-MM-DD HH:mm:ss');
+  var ipuser = getIp(function (ip) {
+   return ip;
+  });
 
   // Save message
   saveMessage(name, email, dataHora);
@@ -48,11 +50,12 @@ function getInputVal(id) {
 }
 
 // Save message to firebase
-function saveMessage(name, email, dataHora) {
+function saveMessage(name, email, dataHora, ipuser) {
   var newMessageRef = messagesRef.push();
   newMessageRef.set({
     name: name,
     email: email,
-    dataHora: dataHora
+    dataHora: dataHora,
+    ipuser: ipuser
   });
 }
