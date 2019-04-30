@@ -1,0 +1,12 @@
+[
+  {
+    "id": "primeira-noticia",
+    "titulo": "Primeira Notícia",
+    "descricao": "Minha descrição"
+  },
+  {
+    "id": "segunda-noticia",
+    "titulo": "Segunda Notícia",
+    "descricao": "Minha descrição 2"
+  }
+]
