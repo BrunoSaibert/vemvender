@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Vem vender online</title>
 
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
 
@@ -14,25 +17,23 @@
     <link rel="stylesheet" href="css/style.css">
 
     <!-- Fontawesome CSS -->
-    <link rel="stylesheet" href="lib/@fortawesome/fontawesome-free/css/all.css">
-    <style>
-.banner {
-  width: 100%;
-  height: 153px;
-  background: #C4C4C4;
-}
+    <link rel="stylesheet" href="libs/@fortawesome/fontawesome-free/css/all.css">
 
+    <style>
+        .banner {
+            width: 100%;
+            height: 153px;
+            background: #C4C4C4;
+        }
     </style>
 </head>
 
 <body>
-    <!-- <div class ="container">
-    <div class = "b1">Bloco 1</div>
-</div>   -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="./img/logo.svg" alt="" style="width: 250px;">
+                <img src="./img/logo/logo.svg" alt="" style="width: 250px;">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,21 +43,26 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Insta</a>
+                        <a class="nav-link" href="https://www.instagram.com/vemvenderonline/" target="blank">
+                            <img src="./img/social/insta.png" alt="">
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Face</a>
+                        <a class="nav-link" href="https://fb.me/vemvenderonline" target="blank">
+                            <img src="./img/social/face.png" alt="">
+                        </a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
     <main class="intro">
         <div class="container">
 
             <div class="row justify-content-md-center">
-                <div class="col-md-8">
-                    <div class="col-md-6">
+                <div class="col-md-10">
+                    <div class="col-md-6 mt-2">
                         <h1>Venda mais todos os dias!</h1>
                         <span>Venha aprender conosco! Cadastre-se e aprenda mais com nossos artigos digitais.</span>
                     </div>
@@ -65,14 +71,14 @@
 
         </div>
     </main>
-    <section class="card_intro container">
+    <section class="card_intro form_lead container">
         <div class="row justify-content-md-center">
-            <div class="col-md-8">
+            <div class="col-md-10">
                 <div class="card">
                     <div class="card-body row">
                         <div class="col-md-6">
-                            <p>Aumente suas vendas online</p>
-                            <h3>Receba um artigo especial para começar a vender com eficácia</h3>
+                            <p class="my-3 mx-5">Aumente suas vendas online</p>
+                            <h3 class="my-3 mx-5">Receba um artigo especial para começar a vender com eficácia</h3>
                         </div>
                         <div class="col-md-6">
                             <form id="introForm">
@@ -93,10 +99,10 @@
         </div>
     </section>
 
-    <main class="Parte 1 conteudo">
+    <section class="parte_1_conteudo">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center my-5"></div>
+                <div class="col-12 text-center mt-5"></div>
                 <p> /* Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the
                     stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of
                     the spectator on a hillside, the sable cloud beneath was dished out, and the car seemed to float in
@@ -110,24 +116,24 @@
                 </p>
             </div>
         </div>
-    </main>
-    <main class="banner">
-            <div class="container-fluid">
-    
-                <div class="row justify-content-md-center">
-                    <div class="col-md-8">
-                          <!--  <img src="" class="img-fluid" alt="Imagem responsiva"> -->
-                          <h1 class="stats">7500</h1>
-                    </div>
+    </section>
+    <section class="banner">
+        <div class="container-fluid">
+
+            <div class="row justify-content-md-center">
+                <div class="col-md-8">
+                    <!--  <img src="" class="img-fluid" alt="Imagem responsiva"> -->
 
                 </div>
-    
+
             </div>
-        </main>
-    <main class="Parte 2 conteudo">
+
+        </div>
+    </section>
+    <section class="parte_2_conteudo">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center my-5"></div>
+                <div class="col-12 text-center mt-5"></div>
                 <p> /* Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the
                     stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of
                     the
@@ -147,15 +153,80 @@
                 </p>
             </div>
         </div>
-    </main>
-    <footer class="footer">
+    </section>
 
+    <section class="sobre p-4">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-md-10 row">
+                    <img src="./img/logo/marcalogo.svg" class="col-md-4" alt="">
+                    <div class="sobre_conteudo col-md-6">
+                        <h3>Quem somos nós</h3>
+                        <p>O vem vender online é um canal de educação para o empreendedor que quer modernizar seu
+                            negócio. Ele
+                            oferece soluções práticas e iniciantes para afetar diretamente no faturamento dos
+                            empresários. Seus
+                            valores são motivação para crescer, pro-atividade, quando a gente chama, você vem? Nossa
+                            missão é
+                            facilitar o acesso a informação para o empresário, canalizando informações e ferramentas que
+                            ajudem no
+                            processo de crescimento do seu negocio.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="form_lead container p-4">
+        <div class="row justify-content-md-center">
+            <div class="col-md-10">
+                <div class="card">
+                    <div class="card-body row">
+                        <div class="col-md-6">
+                            <p class="my-3 mx-5">Aumente suas vendas online</p>
+                            <h3 class="my-3 mx-5">Receba um artigo especial para começar a vender com eficácia</h3>
+                        </div>
+                        <div class="col-md-6">
+                            <form id="introForm">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="nomeInput"
+                                        placeholder="Qual seu nome?*">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="emailInput"
+                                        placeholder="Qual seu email?*">
+                                </div>
+                                <button type="submit" class="btn btn-secondary btn-block">Receber artigo!</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer p-2">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <a href="#">
+                    <img src="./img/logo/logobranca.svg" alt="Logo">
+                </a>
+                <a href="https://www.instagram.com/vemvenderonline/" target="blank">
+                    <img src="./img/social/instab.png" alt="Insta">
+                </a>
+                <a href="https://fb.me/vemvenderonline" target="blank">
+                    <img src="./img/social/faceb.png" alt="Face">
+                </a>
+                <a href="#">
+                    <img src="./img/social/mailb.png" alt="E-mail">
+                </a>
+            </div>
+        </div>
     </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="lib/jquery/jquery.min.js"></script>
-    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="libs/jquery/jquery.min.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Main -->
     <script src="js/main.js"></script>
