@@ -79,7 +79,7 @@ gulp.task("scripts", function () {
     console.log("Prepping Scripts for: " + prop);
     for (var itemProp in deps[prop]) {
       streams.push(gulp.src("node_modules/" + prop + "/" + itemProp)
-        .pipe(gulp.dest("lib/" + prop + "/" + deps[prop][itemProp])));
+        .pipe(gulp.dest("libs/" + prop + "/" + deps[prop][itemProp])));
     }
   }
 
