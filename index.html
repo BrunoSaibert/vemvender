@@ -73,14 +73,21 @@
               <h3 class="my-3 mx-5">Receba um artigo especial para começar a vender com eficácia</h3>
             </div>
             <div class="col-md-6">
-              <form id="introForm">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="nomeInput" placeholder="Qual seu nome?*">
+              <form class="introForm h-100">
+                <div class="form_sucesso d-none">
+                  <p class="text-success">Obrigado pelo seu interesse no nosso Guia Prático. Esperamos que esse material o auxilie a iniciar suas vendas online. Boa leitura!</p>
                 </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" id="emailInput" placeholder="Qual seu email?*">
+                <div class="form_conteudo">
+                  <div class="form-group">
+                    <input type="hidden" class="form-control" id="origemInput" value="Cabeçalho Home">
+                    <input type="hidden" class="form-control ipUsuario">
+                    <input type="text" class="form-control" id="nomeInput" placeholder="Qual seu nome?*" required>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="emailInput" placeholder="Qual seu email?*" required>
+                  </div>
+                  <button type="submit" class="btn btn-secondary btn-block text-uppercase">Receber artigo!</button>
                 </div>
-                <button type="submit" class="btn btn-secondary btn-block">Receber artigo!</button>
               </form>
             </div>
           </div>
@@ -148,7 +155,11 @@
           <img src="./img/logo/marcalogo.svg" class="col-md-5 col-lg-4" alt="">
           <div class="sobre_conteudo col-md-7 col-lg-6">
             <h3>Quem somos nós</h3>
-            <p>O vem vender online é um canal de educação para o empreendedor que quer modernizar seu negócio. Ele oferece soluções práticas e iniciantes para afetar diretamente no  faturamento dos empresários. Seus valores são motivação para crescer, pro-atividade, quando a gente chama, você vem? Nossa missão é facilitar o acesso a informação para o empresário, canalizando informações e ferramentas que ajudem no processo de crescimento do seu negocio.</p>
+            <p>O vem vender online é um canal de educação para o empreendedor que quer modernizar seu negócio. Ele
+              oferece soluções práticas e iniciantes para afetar diretamente no faturamento dos empresários. Seus
+              valores são motivação para crescer, pro-atividade, quando a gente chama, você vem? Nossa missão é
+              facilitar o acesso a informação para o empresário, canalizando informações e ferramentas que ajudem no
+              processo de crescimento do seu negocio.</p>
           </div>
         </div>
       </div>
@@ -165,14 +176,21 @@
               <h3 class="my-3 mx-5">Receba um artigo especial para começar a vender com eficácia</h3>
             </div>
             <div class="col-md-6">
-              <form id="introForm">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="nomeInput" placeholder="Qual seu nome?*">
+              <form class="introForm h-100">
+                <div class="form_sucesso d-none">
+                  <p class="text-success">Obrigado pelo seu interesse no nosso Guia Prático. Esperamos que esse material o auxilie a iniciar suas vendas online. Boa leitura!</p>
                 </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" id="emailInput" placeholder="Qual seu email?*">
+                <div class="form_conteudo">
+                  <div class="form-group">
+                    <input type="hidden" class="form-control" id="origemInput" value="Rodapé Home">
+                    <input type="hidden" class="form-control ipUsuario">
+                    <input type="text" class="form-control" id="nomeInput" placeholder="Qual seu nome?*" required>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="emailInput" placeholder="Qual seu email?*" required>
+                  </div>
+                  <button type="submit" class="btn btn-secondary btn-block text-uppercase">Receber artigo!</button>
                 </div>
-                <button type="submit" class="btn btn-secondary btn-block">Receber artigo!</button>
               </form>
             </div>
           </div>
@@ -201,14 +219,24 @@
     </div>
   </footer>
 
-
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="libs/jquery/jquery.min.js"></script>
   <script src="libs/bootstrap/js/bootstrap.min.js"></script>
 
+  <!-- Momment -->
+  <script src="libs/moment/moment.min.js"></script>
+  <script src="libs/moment/moment-with-locales.min.js"></script>
+
   <!-- Main -->
   <script src="js/main.js"></script>
+
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
+  <script src="js/main/get-user-ip.js"></script>
+
+  <!-- Salva o form -->
+  <script src="js/main/introForm.js"></script>
 </body>
 
 </html>
