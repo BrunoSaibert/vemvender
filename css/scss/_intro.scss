@@ -23,28 +23,12 @@
 }
 
 .card_intro {
-  position: absolute;
+  position: relative;
   left: 0;
   right: 0;
-  top: 285px;
+  top: -120px;
+  margin-bottom: -100px;
 }
-
-.card_intro p {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 21px;
-
-  color: rgba(0, 0, 0, 0.8);
-}
-
-.card_intro h3 {
-  font-family: Roboto Slab;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 26px;
-
-  color: rgba(0, 0, 0, 0.8);
+.intro {
+  margin-top: 58px;
 }

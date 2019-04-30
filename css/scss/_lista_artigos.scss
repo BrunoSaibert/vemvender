@@ -1,0 +1,68 @@
+.lista_artigos h4 {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px; /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.09em;
+  color: #000000;
+}
+
+.lista_artigos h4::after {
+  content: "";
+  display: block;
+  margin: 0 auto 40px;
+  width: 119px;
+  height: 1px;
+  background: #f2600f;
+}
+
+.artigo .row {
+  display: flex;
+}
+
+.artigo::after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid #6fbe44;
+  margin: 20px auto;
+  width: 70%;
+}
+
+.artigo:nth-child(odd) .artigo_img {
+  order: 1;
+}
+
+.artigo:last-child::after {
+  content: "";
+  border-bottom: none;
+}
+
+.artigo .artigo_conteudo h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.artigo .artigo_conteudo p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.artigo .artigo_conteudo .btn-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 10px 0;
+  color: #6fbe44;
+}

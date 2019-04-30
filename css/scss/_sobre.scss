@@ -1,0 +1,24 @@
+.sobre {
+  background: rgba(100, 184, 61, 0.3);
+}
+
+.sobre .sobre_conteudo h3 {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+
+  color: #008000;
+}
+
+.sobre .sobre_conteudo p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 133%; /* or 21px */
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}

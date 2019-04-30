@@ -1,7 +1,7 @@
-@import 'normalize';
-@import 'reset';
-@import 'variaveis';
-@import 'bootstrap-custom';
+@import "normalize";
+@import "reset";
+@import "variaveis";
+@import "bootstrap-custom";
 
 // @import 'geral';
 
@@ -10,8 +10,11 @@
 // @import 'botao';
 // @import 'formulario';
 
-// @import 'header';
-@import 'intro';
-// @import 'footer';
+@import "header";
+@import "intro";
+@import "lista_artigos";
+@import "sobre";
+@import "footer";
+@import "form_lead";
 
 // @import 'responsivo';
