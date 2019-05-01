@@ -2,6 +2,10 @@
 }
 
 @media only screen and (max-width: 769px) {
+  .logo {
+    width: 200px;
+  }
+
   .card_intro {
     position: relative;
     top: -100px;
@@ -19,10 +23,6 @@
 }
 
 @media only screen and (max-width: 427px) {
-  .logo {
-    width: 200px;
-  }
-
   .navbar .navbar-nav a {
     margin: 5px;
   }
