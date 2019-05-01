@@ -3,9 +3,16 @@
     width: 250px;
     max-width: calc(100% - 50px);
   }
+  .form_ebook_box {
+    height: 330px;
+  }
+
+  .form_ebook_box img {
+    height: 360px;
+  }
 }
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 767px) {
   .logo {
     width: 200px;
   }
@@ -23,6 +30,31 @@
   .form_lead .my-3 {
     margin: 10px 0 !important;
     padding: 0 !important;
+  }
+
+  .form_ebook_box {
+    height: auto;
+    display: block;
+    margin: 230px 0 20px;
+    position: relative;
+    background: linear-gradient(112.26deg, #fff0b8 8.05%, #fbc289 83%);
+  }
+
+  .form_ebook_box > img {
+    display: block;
+    position: absolute;
+    top: -230px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: -1;
+    overflow: hidden;
+    width: 350px;
+    height: auto;
+  }
+
+  .form_ebook_img {
+    display: none;
   }
 }
 
@@ -44,6 +76,17 @@
 
   .form_lead .my-3 {
     margin: 5px 0 !important;
+  }
+
+  .autor_artigo {
+    height: 100px;
+    margin-bottom: 50px;
+  }
+
+  .autor_bloco .foto_autor {
+    height: 70px;
+    margin-top: 15px;
+    margin-right: 15px;
   }
 
   .sobre.p-4 {

@@ -1,0 +1,77 @@
+.autor_artigo {
+  background: rgba(100, 184, 61, 0.3);
+  height: 80px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.autor_bloco {
+  display: flex;
+}
+
+.autor_bloco .foto_autor {
+  height: 100px;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+.autor_dados h2 {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px; /* identical to box height */
+  margin-top: 20px;
+
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.autor_dados p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px; /* identical to box height */
+
+  color: #0e9347;
+}
+
+.autor_dados span {
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px; /* identical to box height */
+
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.artigo_conteudo h4 {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px; /* identical to box height, or 144% */
+  text-align: center;
+  margin-top: 20px;
+
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.artigo_conteudo p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px; /* or 162% */
+  margin-bottom: 20px;
+  color: #4d4d4d;
+}
+
+.artigo_conteudo img {
+  margin-bottom: 20px;
+}
+
+.artigo_conteudo a {
+  color: #6fbe44;
+}
