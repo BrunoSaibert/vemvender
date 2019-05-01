@@ -78,8 +78,29 @@
 
 .artigo_conteudo ul li {
   list-style: disc;
+  list-style-type: disc;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  margin-bottom: 20px;
+  color: #4d4d4d;
 }
 
 .artigo_conteudo a {
   color: #6fbe44;
+}
+
+ul.marcadornum {
+  list-style-type: decimal;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  margin-bottom: 20px;
+  color: #4d4d4d;
 }
