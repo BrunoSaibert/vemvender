@@ -53,7 +53,7 @@
   font-size: 18px;
   line-height: 26px; /* identical to box height, or 144% */
   text-align: center;
-  margin: 20px 0;
+  margin: 40px 0 20px;
 
   color: rgba(0, 0, 0, 0.8);
 }
@@ -70,6 +70,14 @@
 
 .artigo_conteudo img {
   margin-bottom: 20px;
+}
+
+.artigo_conteudo ul {
+  padding-left: 20px;
+}
+
+.artigo_conteudo ul li {
+  list-style: disc;
 }
 
 .artigo_conteudo a {

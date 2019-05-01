@@ -1,11 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Vem vender online</title>
+    <title>Como atrair clientes na internet - Vem vender online</title>
+    <link rel="icon" href="favicon.png">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="VEM VENDER ONLINE" />
+    <meta property="og:description"
+        content="Mudar é preciso! Dados do Sebrae mostram que dentre os motivos pelos quais as pequenas empresas fecham está a atualização às tecnologias do setor e aperfeiçoamento de seus produtos e serviços com frequência. Confira em nosso post!" />
+    <meta property="og:url" content="http://vemvender.online/" />
+    <meta property="og:image" content="" />
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700" rel="stylesheet">
@@ -15,18 +23,6 @@
 
     <!-- Site CSS -->
     <link rel="stylesheet" href="css/style.css">
-
-    <style>
-        .banner {
-            width: 100%;
-            height: 153px;
-            background: #C4C4C4;
-        }
-
-        ul.marcador {
-            list-style-type: disc;
-        }
-    </style>
 </head>
 
 <body>
@@ -88,37 +84,17 @@
 
         </div>
     </main>
-    <section class="card_intro form_lead container d-none">
-        <div class="row justify-content-md-center">
-            <div class="col-md-10">
-                <div class="card">
-                    <div class="card-body row">
-                        <div class="col-md-6">
-                            <p class="my-3 mx-5">Aumente suas vendas online</p>
-                            <h3 class="my-3 mx-5">Receba um artigo especial para começar a vender com eficácia</h3>
-                        </div>
-                        <div class="col-md-6">
-                            <form class="introForm h-100">
-                                <div class="form_sucesso d-none">
-                                    <p class="text-success">Obrigado pelo seu interesse no nosso Guia Prático. Esperamos
-                                        que esse material o auxilie a iniciar suas vendas online. Boa leitura!</p>
-                                </div>
-                                <div class="form_conteudo">
-                                    <div class="form-group">
-                                        <input type="hidden" class="form-control" id="origemInput"
-                                            value="Cabeçalho Interna">
-                                        <input type="hidden" class="form-control ipUsuario">
-                                        <input type="text" class="form-control" id="nomeInput"
-                                            placeholder="Qual seu nome?*" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" id="emailInput"
-                                            placeholder="Qual seu e-mail profissional?*" required>
-                                    </div>
-                                    <button type="submit" class="btn btn-secondary btn-block text-uppercase">Receber
-                                        artigo!</button>
-                                </div>
-                            </form>
+
+    <section class="autor_artigo">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-md-10">
+                    <div class="autor_bloco">
+                        <img src="./img/autor/ana.jpg" alt="" class="foto_autor img-fluid rounded-circle">
+                        <div class="autor_dados">
+                            <h2>Por Ana Lúcia Caldeira</h2>
+                            <p>Publicitária especializada em Marketing Digital</p>
+                            <span>Última atualização: Abril de 2019</span>
                         </div>
                     </div>
                 </div>
@@ -126,10 +102,11 @@
         </div>
     </section>
 
-    <section class="parte_1_conteudo">
+    <section class="artigo_conteudo">
         <div class="container">
             <div class="row justify-content-md-center">
-                <div class="col-12 col-lg-10 mt-2">
+                <div class="col-12 col-lg-10">
+
                     <p> Listamos alguns métodos que nós usamos para reforçar sua presença online. Estas ferramentas
                         simples não vão te custar quase nada e você já pode começar a colocar em prática. Aqui nós não
                         iremos nos aprofundar em publicidade paga na internet pois se você é novo no mundo das vendas
@@ -141,7 +118,7 @@
                     </p>
                     <p>Quanto mais você aparecer para as pessoas certas, mais chances tem de fazer uma venda. </p>
 
-                    <h1><b>Midias Sociais</b></h1>
+                    <h4 class="text-center">Midias Sociais</h4>
                     <p>Uma das maiores armas para seu marketing são as mídias sociais. Você tem acesso a milhares de
                         clientes em potencial na ponta de seus dedos. Aposte em testar posts com links para produtos,
                         promoções e informações sobre sua marca em diferentes redes.
@@ -149,7 +126,7 @@
                         seus posts para que eles sejam acessados conforme o interesse das pessoas. Essas
                         ferramentas também são ótimas para se conectar e aproximar mais dos seus atuais clientes.
                     </p>
-                    <h1><b>SEO</b></h1>
+                    <h4 class="text-center">SEO</h4>
                     <p>Todo o conteúdo da sua loja online, de descrições de produtos a suas postagens, podem te
                         ajudar a ser visto por mais pessoas.
                         Aparecer mais alto em pesquisas relevantes de sites como google, yahoo e bing é semelhante a
@@ -161,7 +138,7 @@
                         mostra muitos dados como localização e idade de quem acessa seu site. Essas informações podem te
                         ajudar a melhorar a sua loja e postagens.
                     </p>
-                    <h1><b>Criar um blog</b></h1>
+                    <h4 class="text-center">Criar um blog</h4>
                     <p>Postar artigos é uma boa forma de incrementar o SEO de sua loja e vender sua marca ao
                         mesmo tempo. Supondo que você tenha uma loja de camisetas de bandas. Então você escreve um
                         artigo mostrando camisetas de rock que aparecem em filmes de hollywood. Assim você será achado
@@ -183,29 +160,55 @@
                                 diversas ocasiões. </li>
                         </ul>
                     </p>
-                    <!-- Primeira imagem-->
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="banner">
-        <div class="container-fluid">
 
-            <div class="row justify-content-md-center">
-                <div class="col-md-8">
-                    <!--  <img src="" class="img-fluid" alt="Imagem responsiva"> -->
+                    <!-- EBOOK -->
+                    <div class="form_ebook_box">
+                        <img src="./img/ebook/ebook.png" class="img-fluid" alt="">
 
-                </div>
+                        <div class="col-md-6 text-center form_ebook_img">
+                            <img src="./img/ebook/ebook.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="form_ebook col-md-6">
+                            <h5>O melhor Guia para quem quer começar a vender online rapidamente.</h5>
+                            <form class="introForm">
+                                <div class="form_sucesso d-none">
+                                    <p class="text-success">Obrigado pelo seu interesse no nosso Guia Prático. Esperamos
+                                        que esse material o auxilie a iniciar suas vendas online. Boa leitura!</p>
+                                </div>
+                                <div class="form_conteudo">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control d-none" id="origem_input"
+                                            value="Miolo Interna">
+                                        <input type="hidden" class="form-control ipUsuario">
+                                        <input type="text" class="form-control" id="last_name"
+                                            placeholder="Qual seu nome?*" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="email"
+                                            placeholder="Qual seu e-mail profissional?*" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <select class="form-control"
+                                            id="cf_qual_seu_principal_objetivo_ao_baixar_esse_e-book" required>
+                                            <option value="">Qual seu objetivo?*</option>
+                                            <option value="Quero comecar a vender online">Quero começar a vender online
+                                            </option>
+                                            <option value="Ja vendo online e quero aumentar minhas vendas">Já vendo
+                                                online e quero aumentar minhas vendas</option>
+                                            <option value="Quero comecar a empreender">Quero começar a empreender
+                                            </option>
+                                            <option value="Outro motivo">Outro motivo</option>
+                                        </select>
+                                    </div>
+                                    <button type="submit" class="btn btn-secondary btn-block text-uppercase">Receber
+                                        Guia!</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- FIM EBOOK -->
 
-            </div>
-
-        </div>
-    </section>
-    <section class="parte_2_conteudo">
-        <div class="container">
-            <div class="row justify-content-md-center">
-                <div class="col-12 col-lg-10 mt-2">
-                    <h1><b>Email Marketing</b></h1>
+                    <h4 class="text-center">Email Marketing</h4>
                     <p> Nós amamos envios de emails (email marketing). É uma conexão pessoal com seus clientes. Se feita
                         corretamente, consegue ser usada para identificar a quantidade de vontade que esse interessado
                         tem no assunto, por consequência, no seu produto. Quanto mais ele demonstra estar atraído pelo
@@ -218,7 +221,8 @@
                         Assim você pode aproximá-lo de um relacionamento. Isso te dará uma ótima oportunidades de
                         gentilmente reclassifica-lo e oferecer novas ofertas ou produtos conforme desejar.
                     </p>
-                    <p><b>Dica:</b> Se seu email de produtos ou de descontos tem tempo limitado. Muitas palavras ou
+                    <p><strong>Dica:</strong> Se seu email de produtos ou de descontos tem tempo limitado. Muitas
+                        palavras ou
                         figuras podem distrair as pessoas da sua mensagem principal. Mantenha linhas de assuntos claras
                         e
                         curtas, de até 50 caracteres. O mesmo vale para seu site, muita informação podem tornar seu site
@@ -227,11 +231,59 @@
                         Se você está apenas começando,
                         melhor focar em SEO e construir uma audiência com posts de blog e mídias sociais. Pois com uma
                         base de clientes maior, você conseguirá mais resultados.</p>
-                    <h1><b>Promoções</b></h1>
+                    <h4 class="text-center">Promoções</h4>
                     <p> Realizar promoções e descontos é uma ótima ideia para vender seus produtos. Você consegue rodar
                         promoções em marketplaces e até no Facebook, mas sua experiência mais efetiva será na sua
                         própria loja online pois consegue aumentar seu apelo visual.
                     </p>
+
+                     <!-- EBOOK -->
+                     <div class="form_ebook_box">
+                            <img src="./img/ebook/ebook.png" class="img-fluid" alt="">
+    
+                            <div class="col-md-6 text-center form_ebook_img">
+                                <img src="./img/ebook/ebook.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="form_ebook col-md-6">
+                                <h5>O melhor Guia para quem quer começar a vender online rapidamente.</h5>
+                                <form class="introForm">
+                                    <div class="form_sucesso d-none">
+                                        <p class="text-success">Obrigado pelo seu interesse no nosso Guia Prático. Esperamos
+                                            que esse material o auxilie a iniciar suas vendas online. Boa leitura!</p>
+                                    </div>
+                                    <div class="form_conteudo">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control d-none" id="origem_input"
+                                                value="Rodapé Interna">
+                                            <input type="hidden" class="form-control ipUsuario">
+                                            <input type="text" class="form-control" id="last_name"
+                                                placeholder="Qual seu nome?*" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" id="email"
+                                                placeholder="Qual seu e-mail profissional?*" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <select class="form-control"
+                                                id="cf_qual_seu_principal_objetivo_ao_baixar_esse_e-book" required>
+                                                <option value="">Qual seu objetivo?*</option>
+                                                <option value="Quero comecar a vender online">Quero começar a vender online
+                                                </option>
+                                                <option value="Ja vendo online e quero aumentar minhas vendas">Já vendo
+                                                    online e quero aumentar minhas vendas</option>
+                                                <option value="Quero comecar a empreender">Quero começar a empreender
+                                                </option>
+                                                <option value="Outro motivo">Outro motivo</option>
+                                            </select>
+                                        </div>
+                                        <button type="submit" class="btn btn-secondary btn-block text-uppercase">Receber
+                                            Guia!</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- FIM EBOOK -->
+
                 </div>
             </div>
         </div>
@@ -253,44 +305,6 @@
                             facilitar o acesso a informação para o empresário, canalizando informações e ferramentas que
                             ajudem no
                             processo de crescimento do seu negocio.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="form_lead container p-4">
-        <div class="row justify-content-md-center">
-            <div class="col-md-10">
-                <div class="card">
-                    <div class="card-body row">
-                        <div class="col-md-6">
-                            <p class="my-3 mx-5">Aumente suas vendas online</p>
-                            <h3 class="my-3 mx-5">Receba um artigo especial para começar a vender com eficácia</h3>
-                        </div>
-                        <div class="col-md-6">
-                            <form class="introForm h-100">
-                                <div class="form_sucesso d-none">
-                                    <p class="text-success">Obrigado pelo seu interesse no nosso Guia Prático. Esperamos
-                                        que esse material o auxilie a iniciar suas vendas online. Boa leitura!</p>
-                                </div>
-                                <div class="form_conteudo">
-                                    <div class="form-group">
-                                        <input type="hidden" class="form-control" id="origemInput"
-                                            value="Rodapé Interna">
-                                        <input type="hidden" class="form-control ipUsuario">
-                                        <input type="text" class="form-control" id="nomeInput"
-                                            placeholder="Qual seu nome?*" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" id="emailInput"
-                                            placeholder="Qual seu e-mail profissional?*" required>
-                                    </div>
-                                    <button type="submit" class="btn btn-secondary btn-block text-uppercase">Receber
-                                        artigo!</button>
-                                </div>
-                            </form>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -334,7 +348,7 @@
     <script src="js/main/get-user-ip.js"></script>
 
     <!-- Salva o form -->
-    <script src="js/main/introForm.js"></script>
+    <script src="js/introForm.js"></script>
 
 </body>
 
