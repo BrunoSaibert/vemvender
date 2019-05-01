@@ -96,7 +96,6 @@ function browser() {
     server: {
       baseDir: "./"
     }
-    // tunnel: true
   });
 }
 
