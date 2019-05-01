@@ -6,16 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Vem vender online</title>
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700" rel="stylesheet">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
-
-    <!-- Site CSS -->
-    <link rel="stylesheet" href="css/style.css">
-
     <style>
         .banner {
             width: 100%;
@@ -25,8 +15,27 @@
 
         ul.marcador {
             list-style-type: disc;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            /* or 162% */
+            margin-bottom: 20px;
+            color: #4d4d4d;
         }
     </style>
+
+    <link rel="icon" href="favicon.png">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -79,7 +88,7 @@
 
             <div class="row justify-content-md-center">
                 <div class="col-md-10">
-                    <div class="col-mt-2">
+                    <div class="mt-4 mb-2">
                         <h1>Matar ou aumentar suas vendas? Lições de negócios que ficaram para trás </h1>
                         <span>Olá esse é um texto vindo direto do blog que chama atenção.</span>
                     </div>
@@ -88,7 +97,7 @@
 
         </div>
     </main>
-    <section class="card_intro form_lead container d-none">
+    <!-- <section class="card_intro form_lead container d-none">
         <div class="row justify-content-md-center">
             <div class="col-md-10">
                 <div class="card">
@@ -125,8 +134,25 @@
             </div>
         </div>
     </section>
+-->
+    <section class="autor_artigo">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-md-10">
+                    <div class="autor_bloco">
+                        <img src="./img/autor/bruno.jpg" alt="" class="foto_autor img-fluid rounded-circle">
+                        <div class="autor_dados">
+                            <h2>Por Sabrina Fraiz</h2>
+                            <p>Modificar</p>
+                            <span>Última atualização: Abril de 2019</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <section class="parte_1_conteudo">
+    <section class="artigo_conteudo">
         <div class="container">
             <div class="row justify-content-md-center">
                 <div class="col-12 col-lg-10 mt-2">
@@ -156,20 +182,20 @@
             </div>
         </div>
     </section>
-    <section class="banner">
+    <!--<section class="banner">
         <div class="container-fluid">
 
             <div class="row justify-content-md-center">
                 <div class="col-md-8">
-                    <!--  <img src="" class="img-fluid" alt="Imagem responsiva"> -->
+                    <!--  <img src="" class="img-fluid" alt="Imagem responsiva"> 
 
                 </div>
 
             </div>
 
         </div>
-    </section>
-    <section class="parte_2_conteudo">
+    </section>-->
+    <section class="artigo_conteudo">
         <div class="container">
             <div class="row justify-content-md-center">
                 <div class="col-12 col-lg-10 mt-2">
@@ -212,8 +238,53 @@
                         e melhor:</p>
                     <!--Guia-->
                     <p>Fonte:
-                        https://www.linkedin.com/pulse/blockbuster-kodak-e-outros-neg%C3%B3cios-que-faliram-por-n%C3%A3o-monteiro/
+                        <a href="https://www.linkedin.com/pulse/blockbuster-kodak-e-outros-neg%C3%B3cios-que-faliram-por-n%C3%A3o-monteiro/" target="blank">https://www.linkedin.com/pulse/blockbuster-kodak-e-outros-neg%C3%B3cios-que-faliram-por-n%C3%A3o-monteiro/</a>
                     </p>
+                    <div class="form_ebook_box">
+                        <img src="./img/ebook/ebook.png" class="img-fluid" alt="">
+
+                        <div class="col-md-6 text-center form_ebook_img">
+                            <img src="./img/ebook/ebook.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="form_ebook col-md-6">
+                            <h5>O melhor Guia para quem quer começar a vender online rapidamente.</h5>
+                            <form class="introForm h-100">
+                                <div class="form_sucesso d-none">
+                                    <p class="text-success">Obrigado pelo seu interesse no nosso Guia Prático.
+                                        Esperamos
+                                        que esse material o auxilie a iniciar suas vendas online. Boa leitura!</p>
+                                </div>
+                                <div class="form_conteudo">
+                                    <div class="form-group">
+                                        <input type="hidden" class="form-control" id="origem_input"
+                                            value="Rodapé Interna">
+                                        <input type="hidden" class="form-control ipUsuario">
+                                        <input type="text" class="form-control" id="nomeInput"
+                                            placeholder="Qual seu nome?*" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="emailInput"
+                                            placeholder="Qual seu e-mail profissional?*" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <select class="form-control" id="objetivoInput" required>
+                                            <option value="">Qual seu objetivo?*</option>
+                                            <option value="Quero começar a vender online">Quero começar a vender
+                                                online
+                                            </option>
+                                            <option value="Já vendo online e quero aumentar minhas vendas">Já vendo
+                                                online e quero aumentar minhas vendas</option>
+                                            <option value="Quero começar a empreender">Quero começar a empreender
+                                            </option>
+                                            <option value="Outro motivo">Outro motivo</option>
+                                        </select>
+                                    </div>
+                                    <button type="submit" class="btn btn-secondary btn-block text-uppercase">Receber
+                                        Guia!</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -241,6 +312,7 @@
         </div>
     </section>
 
+<!--
     <section class="form_lead container p-4">
         <div class="row justify-content-md-center">
             <div class="col-md-10">
@@ -278,8 +350,8 @@
             </div>
         </div>
     </section>
-
-    <footer class="footer p-2">
+-->
+<footer class="footer p-2">
         <div class="container">
             <div class="row justify-content-md-center">
                 <a href="./index.html">
