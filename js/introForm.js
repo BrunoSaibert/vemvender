@@ -15,9 +15,9 @@ $('.introForm').on('submit', function (e) {
 
   // Pega os dados do formulario
   var origem = $(this).find('#origem_input').val();
-  var nome = $(this).find('#nomeInput').val();
-  var email = $(this).find('#emailInput').val();
-  var objetivo = $(this).find('#objetivoInput').val();
+  var nome = $(this).find('#last_name').val();
+  var email = $(this).find('#email').val();
+  var objetivo = $(this).find('#cf_qual_seu_principal_objetivo_ao_baixar_esse_e-book').val();
   var ipUsuario = $(this).find('.ipUsuario').val();
 
   // Pega a data e hora
@@ -43,7 +43,9 @@ $('.introForm').on('submit', function (e) {
     $(this).find('.form_sucesso').addClass('d-none');
 
     // Limpa o formulário
-    $(this).find('#nomeInput').val('');
-    $(this).find('#emailInput').val('');
-  }, 5000);
+    $(this).find('#last_name').val('');
+    $(this).find('#email').val('');
+    $(this).find('#cf_qual_seu_principal_objetivo_ao_baixar_esse_e-book').val('');
+
+  }, 10000);
 });
