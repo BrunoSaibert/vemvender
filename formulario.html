@@ -6,7 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-
+    <style rel="stylesheet">
+        .bg1 {
+            width: 100%;
+            height: 990px;
+            background: linear-gradient(148.84deg, #088e41 15.48%, #61ae37 80.19%);
+        }
+    </style>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
 
@@ -15,24 +21,19 @@
 </head>
 
 <body>
-    <div class="container">
-        <form id="contactForm">
-            <div class="row">
-                <div class="col-sm-6 col-md-4">
-                    <input type="hidden" id="ip" name="ip" />
-                    <input type="text" id="nome" placeholder="Nome" required="required" name="nome" />
+    <section class="bg1">
+        <div class="container-fluid">
+
+            <div class="row justify-content-md-center">
+                <div class="col-md-8">
+                    <!--  <img src="" class="img-fluid" alt="Imagem responsiva"> -->
+
                 </div>
-                <div class="col-sm-6 col-md-4">
-                    <input type="text" id="email" placeholder="email" name="email" />
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <button type="submit">Submit</button>
-                </div>
+
             </div>
-        </form>
-    </div>
 
-
+        </div>
+    </section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="lib/jquery/jquery.min.js"></script>
@@ -44,7 +45,7 @@
 
     <!-- Main -->
     <script src="js/main.js"></script>
-    
+
     <!-- Firebase -->
     <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
     <script src="js/main/get-user-ip.js"></script>
