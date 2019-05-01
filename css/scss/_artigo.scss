@@ -72,7 +72,8 @@
   margin-bottom: 20px;
 }
 
-.artigo_conteudo ul {
+.artigo_conteudo ul,
+.artigo_conteudo ol {
   padding-left: 20px;
 }
 
@@ -93,8 +94,8 @@
   color: #6fbe44;
 }
 
-ul.marcadornum {
-  list-style-type: decimal;
+.artigo_conteudo ol li {
+  list-style-type: decimal !important;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
