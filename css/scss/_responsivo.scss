@@ -12,7 +12,19 @@
   }
 }
 
+@media only screen and (max-width: 992px) {
+  .navbar .navbar-nav a {
+    margin: 5px !important;
+    padding: 5px !important;
+  }
+}
+
 @media only screen and (max-width: 767px) {
+  .navbar .navbar-nav a {
+    margin: 5px !important;
+    padding: 5px !important;
+  }
+
   .logo {
     width: 200px;
   }
@@ -60,7 +72,8 @@
 
 @media only screen and (max-width: 427px) {
   .navbar .navbar-nav a {
-    margin: 5px;
+    margin: 5px !important;
+    padding: 5px !important;
   }
 
   .intro h1 {

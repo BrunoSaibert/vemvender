@@ -3,6 +3,17 @@
   text-align: center;
   margin: 0 5px;
   padding: 0 !important;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.navbar-light .navbar-nav .nav-item:first-child .nav-link {
+  color: #6fbe44;
+  margin-top: 2px;
+  margin-right: 20px;
 }
 
 .logo {
