@@ -1,2 +1,5 @@
 # vemvender
-Blog desenvolvido para a o Assignments - 2ª Semana "Show me the leads!"
+Blog desenvolvido para o Assignments - 2ª Semana "Show me the leads!"
+
+# Demonstração
+[Demo](http://brunosaibert.com.br/projetos/vemvender/)
