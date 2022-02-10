@@ -21,7 +21,7 @@
     "jquery-mask-plugin": "^1.14.15",
     "merge-stream": "^1.0.1",
     "moment": "^2.24.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "uglify-js": "3.3.18"
   },
   "devDependencies": {
