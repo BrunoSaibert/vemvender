@@ -20,7 +20,7 @@
     "jquery": "^3.3.1",
     "jquery-mask-plugin": "^1.14.15",
     "merge-stream": "^1.0.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "node-sass": "^4.13.1",
     "uglify-js": "3.3.18"
   },
